@@ -49,9 +49,9 @@ include:
     artifact-name: reset_nicenano_nosd
 
   - board: xiao_ble//zmk
-    shield: cornix_yads prospector_adapter
-    snippet: studio-rpc-usb-uart nrf52840-nosd
-    artifact-name: prospector_dongle
+    shield: cornix_dongle_adapter
+    snippet: studio-rpc-usb-uart
+    artifact-name: cornix_xiao_dongle
 
   - board: xiao_ble//zmk
     shield: settings_reset
